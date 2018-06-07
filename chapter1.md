@@ -59,5 +59,14 @@ DOM样式 （DOM Style）：定义了基于CSS为元素应用样式的接口
 DOM遍历和范围 （DOM Traversal and Range）：定义了遍历和操作文档树的接口。
 ```
 
+7、DOM3级则进一步扩展了DOM，引入了以统一方式加载和保存文档的方法---在DOM文档加载和保存（DOM Load和Save）模块中定义；新增了验证文档的方法---在DOM验证（DOM Validation）模块中定义。
+
+8、浏览器对象模型\(BOM\)
+
+```
+BOM (Browser Object Model)开发人员可以使用BOM来控制浏览器显示的页面意外的部分。
+BOM真正与众不同的地方（也是经常会导致问题的地方，还是它作为JavaScript实现的一部分但却没有相关的标准）
+```
+
 
 
