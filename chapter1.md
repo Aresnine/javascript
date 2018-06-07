@@ -51,6 +51,12 @@ DOM1级中的DOM核心模块也经过扩展开始支持XML命名空间
 
 ```
 DOM视图 (DOM Views):定义了跟踪不同的文档（例如，应用CSS之前和之后的文档）视图接口
+
+DOM事件 （DOM Events）：定义了事件和事件处理接口
+
+DOM样式 （DOM Style）：定义了基于CSS为元素应用样式的接口
+
+DOM遍历和范围 （DOM Traversal and Range）：定义了遍历和操作文档树的接口。
 ```
 
 
