@@ -20,5 +20,13 @@
 对象
 ```
 
+3、文档对象模型（DOM）
+
+```
+文档对象模型(DOM Document Object Model)是针对XML但经过扩展用于HTML的应用程序编程接口(API Application Programming Interface).
+DOM把整个页面映射为一个多层节点结构。HTML或XML页面中的每个组成部分都是某种类型的阶段，这些节点又包含着不同类型的数据。
+
+```
+
 
 
