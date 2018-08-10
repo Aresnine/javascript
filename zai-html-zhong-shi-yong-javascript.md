@@ -68,5 +68,40 @@ type：可选。可以看成是language的替代属性；表示编写代码使�
 
 ## 3、js中script的使用
 
+```js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js中script的使用</title>
+	<style type="text/css">
+		div{
+			width:100px;
+			height:50px;
+			background-color:pink;
+		}	
+	</style>
+	<script type="text/javascript">
+		alert(1);
+	</script>
+	<script src="./1.js">不建议使用</script>
+</head>
+<body bgcolor="cyan">
+	<script type="text/javascript">
+		alert(2);
+	</script>
+	<div></div>
+	
+	三种方式，建议使用第三种。
+		1、提升页面展示速度，增强用户体验度
+		2、js会操作页面的元素，必须保证页面元素已经被加载
+	<script type="text/javascript">
+		alert(3);
+	</script>
+	<script src="./1.js">建议使用该种方式</script>
+</body>
+</html>
+```
+
 
 
