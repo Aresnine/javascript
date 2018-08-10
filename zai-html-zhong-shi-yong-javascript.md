@@ -1,3 +1,12 @@
+## 1、使用方式
+
+* script标签
+* 外部引入
+* 元素的事件属性
+* a标签的href属性
+
+
+
 1、script元素
 
 script定义了下列6个属性
@@ -16,7 +25,6 @@ src：可选。表示包含要执行代码的外部文件
 type：可选。可以看成是language的替代属性；表示编写代码使用的脚本语言的类型（也称为MIME类型）。虽然text/javascript和text/ecmascript
 都已经不推荐使用，但是人们还是经常使用text/javascript.实际上，服务器在传送javascript问件事使用的MIME类型通常是application/x-javascript
 但在type中设置这个值缺可能导致脚本被忽略。
-
 ```
 
 
