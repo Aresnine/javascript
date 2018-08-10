@@ -11,36 +11,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>js的使用方式---四种</title>
+    <meta charset="UTF-8">
+    <title>js的使用方式---四种</title>
 </head>
 <body>
-	<!--标签元素-->
-	<script type="text/javascript">
-		// alert("i love you!!!");
-	</script>
-	<!--导入外部的js文件-->
-	<script src="./1.js" type="text/javascript">
-		alert("测试该处代码是否可以运行");//此处的js代码不可运行
-	</script>
-	<!--通过元素的事件-->
-	<!--
-		on     when 当什么时候
-		click       点击
-	-->
-	<button onclick="alert('小样继续！');alert('是男人你就再点');alert('精彩马上呈现');alert('再点我就给你看大宝的果照');alert('对不起，我不跟重口味的人做朋友');">点我</button>
+    <!--标签元素-->
+    <script type="text/javascript">
+        // alert("i love you!!!");
+    </script>
+    <!--导入外部的js文件-->
+    <script src="./1.js" type="text/javascript">
+        alert("测试该处代码是否可以运行");//此处的js代码不可运行
+    </script>
+    <!--通过元素的事件-->
+    <!--
+        on     when 当什么时候
+        click       点击
+    -->
+    <button onclick="alert('小样继续！');alert('是男人你就再点');alert('精彩马上呈现');alert('再点我就给你看大宝的果照');alert('对不起，我不跟重口味的人做朋友');">点我</button>
 
-	<!--a链接-->
-	<a href="javascript:alert('i can see you');">百度一下</a>
+    <!--a链接-->
+    <a href="javascript:alert('i can see you');">百度一下</a>
 
-	<!--
-		js 在html中的使用方式公有4种
-			1、a链接 href属性
-			2、元素的事件属性（用-测试)
-			3、<script>js代码</script> 平时我经常用 些项目不建议使用
-			4、<script src="js文件路径"></script> 项目
-				易维护、易扩展、可缓存
-	-->
+    <!--
+        js 在html中的使用方式公有4种
+            1、a链接 href属性
+            2、元素的事件属性（用-测试)
+            3、<script>js代码</script> 平时我经常用 些项目不建议使用
+            4、<script src="js文件路径"></script> 项目
+                易维护、易扩展、可缓存
+    -->
 
 </body>
 </html>
@@ -65,6 +65,8 @@ type：可选。可以看成是language的替代属性；表示编写代码使�
 都已经不推荐使用，但是人们还是经常使用text/javascript.实际上，服务器在传送javascript问件事使用的MIME类型通常是application/x-javascript
 但在type中设置这个值缺可能导致脚本被忽略。
 ```
+
+## 3、js中script的使用
 
 
 
