@@ -1,4 +1,2 @@
-this is a test
-
-
+VMware 2017 v14.x 永久许可证激活密钥FF31K-AHZD1-H8ETZ-8WWEZ-WUUVA CV7T2-6WY5Q-48EWP-ZXY7X-QGUWD
 
