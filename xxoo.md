@@ -1,2 +1,44 @@
-VMware 2017 v14.x 永久许可证激活密钥FF31K-AHZD1-H8ETZ-8WWEZ-WUUVA CV7T2-6WY5Q-48EWP-ZXY7X-QGUWD
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NaN</title>
+</head>
+<body>
+	<script type="text/javascript">
+	/*
+		任何值和NaN计算返回值都为NaN
+	*/
+	var res=100+NaN;
+	var res=100-NaN;
+	var res=100*NaN;
+	var res=100/NaN;
+	var res=100%NaN;
+	console.log(res);
+	/*
+		任何值和NaN进行比较运算返回的结果都为false除了!= 和 !==
+
+		NaN和任何值都不相等，包括他本身
+	*/
+	var res=1>NaN;
+	var res=1==NaN;
+	var res=1<NaN;
+	var res=NaN==NaN;
+	var res=1 != NaN;
+	var res=1 !== NaN;
+	var res=NaN !=NaN;
+	console.log(res);
+	/*
+		检测一个值是否为NaN使用isNaN
+	*/
+	var res=1;
+	var res=NaN;
+	console.log(isNaN(res));
+	</script>
+</body>
+</html>
+```
+
+
 
